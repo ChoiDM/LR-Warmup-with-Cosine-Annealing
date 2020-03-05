@@ -1,6 +1,6 @@
-# LR-Warmup-with-Cosine-Annealing
+# LR Warmup with Cosine Annealing
 
-## How to use
+### How to use
 ```python
 import torch.optim as optim
 from torchvision.models import resnet18
@@ -34,7 +34,7 @@ for epoch in range(total_epochs):
 ```
 
 
-## Learning Rate Graph
+### Learning Rate Graph
 - lr_warmup_epoch=5, total_epochs=100, initial_lr=1e-3, etamin=1e-5
 
 ![graph](fig/graph.png)
