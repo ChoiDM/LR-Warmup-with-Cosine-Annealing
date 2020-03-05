@@ -1,5 +1,4 @@
 import torch.optim as optim
-from torch.optim.lr_scheduler import CosineAnnealingLR
 
 def lr_update(epoch, lr_warmup_epoch, optimizer, scheduler):
   if 0 <= epoch < lr_warmup_epoch:
