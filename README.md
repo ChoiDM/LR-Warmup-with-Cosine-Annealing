@@ -1,7 +1,7 @@
 # LR-Warmup-with-Cosine-Annealing
 
 ## How to use
-```
+```python
 import torch.optim as optim
 from torchvision.models import resnet18
 
