@@ -33,4 +33,4 @@ for epoch in range(total_epochs):
 ## Learning Rate Graph
 - (lr_warmup_epoch=5, total_epochs=100, initial_lr=1e-3, etamin=1e-5)
 
-[graph](fig/graph.png)
+![graph](fig/graph.png)
