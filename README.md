@@ -1,7 +1,7 @@
 # LR-Warmup-with-Cosine-Annealing
 
 ## How to use
-'''
+```
 import torch.optim as optim
 from torchvision.models import resnet18
 
@@ -27,7 +27,7 @@ for epoch in range(total_epochs):
     
     optimizer.step()
     lr_update(epoch, lr_warmup_epoch, optimizer, scheduler)
-
+```
 
 
 ## Learning Rate Graph
